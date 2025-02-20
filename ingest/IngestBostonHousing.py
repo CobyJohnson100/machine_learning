@@ -5,7 +5,7 @@ from config_ml import scan_directory_path, logger
 
 class IngestBostonHousing:
     def __init__(self):
-        pass
+        self.boston_housing_filepath = scan_directory_path / "working" / "boston_housing_dataset.csv"
 
     def load_boston_housing_dataset(self):
         from sklearn.datasets import fetch_openml
@@ -24,7 +24,7 @@ class IngestBostonHousing:
     
 def ingest_boston_housing_dataset():
     ingest_boston_housing = IngestBostonHousing()
-    ingest_boston_housing.ingest_boston_housing_dataset()
+    ingest_boston_housing.load_boston_housing_dataset()
     
 
 if __name__ == "__main__":
