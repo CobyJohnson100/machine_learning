@@ -5,12 +5,5 @@
         "single_feature": "RM",
         "multi_features": ["RM", "ZN", "INDUS", "CHAS", "AGE", "LSTAT", "CRIM", "RAD", "PTRATIO", "B", "NOX", "DIS", "TAX"],
         "target": "MEDV"
-    },
-    "iris": {
-        "ingest_class": ["ingest.IngestIris", "IngestIris"],
-        "filepath": "working/iris_dataset.csv",
-        "single_feature": "petal_length",
-        "multi_features": ["sepal_length", "sepal_width", "petal_length", "petal_width"],
-        "target": "target"
     }
 }

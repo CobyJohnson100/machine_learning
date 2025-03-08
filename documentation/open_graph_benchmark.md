@@ -1,0 +1,3 @@
+[comment]: # (machine_learning/documentation/open_graph_benchmark.md)
+# Open Graph Benchmark (OGB)
+Collection of benchmark datasets, data loaders, and evaluators for graph machine learning. It is designed to facilitate the development, evaluation, and comparison of graph-based machine learning models. OGB includes a variety of graph datasets for different tasks such as node classification, link prediction, and graph classification, and provides standardized evaluation metrics and data splits to ensure fair comparisons between different models.
